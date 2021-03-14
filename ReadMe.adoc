@@ -1,0 +1,49 @@
+:Author: Giovanni_G
+:Email: {giovannigrossi@uol.com.br}
+:Date: 02/02/2021
+:Revision: version1
+:License: Public Domain
+
+= Project: Medidor de Eficiência de Motor DC como Gerador Elétrico
+
+== Folder structure
+....
+ DC_Motor_Generator_Efficiency                				 => Arduino sketch folder
+  ├── DC_Motor_Generator_Efficiency.ino       				 => main Arduino file
+  ├── schematics.png      									 => circuit schematics (Fritzing)
+  ├── schematics.fzz                                         => Fritzing project
+  ├── DC_Motor_Generator_Efficiency_AVR_UNO_atmega328p.hex   => project Build
+  └── ReadMe.adoc         									 => this file
+....
+
+=== License
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version (<https://www.gnu.org/licenses/>).
+
+=== Contributing
+To contribute to this project please contact Giovanni_G https://id.arduino.cc/Giovanni_G
+
+=== BOM
+Add the bill of the materials you need for this project.
+
+|===
+| ID   | Part name      | Quantity
+| MCU  | Julieta V1.0   | 1
+| ESI  | Encoder E2-Q2  | 2
+| DC   | DC Motor       | 2
+| BAT  | 18650 Li-Ion   | 2 (Series)
+| MEC  | Plastic Gears  | 2
+| SH   | PCB Shield     | 1
+| R1   | 15K Ohms       | 1
+| R2   | 10K Ohms       | 4
+| R3   | 75K Ohms       | 1
+| R4   | 51K Ohms       | 1
+| POT  | Slider 10K Ohms| 1
+| D1   | Zener (1N4733) | 3
+| D2   | 1N4077         | 2
+| C1   | 0.2 uF         | 1
+| C2   | 47 nF          | 1  
+| C3   | 22 pF          | 3
+|===
