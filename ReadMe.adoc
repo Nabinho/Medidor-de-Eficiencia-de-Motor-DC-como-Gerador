@@ -8,19 +8,16 @@
 
 == Folder structure
 ....
- DC_Motor_Generator_Efficiency                				 => Arduino sketch folder
-  ├── DC_Motor_Generator_Efficiency.ino       				 => main Arduino file
-  ├── schematics.png      									 => circuit schematics (Fritzing)
-  ├── schematics.fzz                                         => Fritzing project
-  ├── DC_Motor_Generator_Efficiency_AVR_UNO_atmega328p.hex   => project Build
-  └── ReadMe.adoc         									 => this file
+ DC_Motor_Generator_Efficiency                				         => Arduino sketch folder
+  * DC_Motor_Generator_Efficiency.ino       				           => main Arduino file
+  * schematics.png      								                 	         => circuit schematics (Fritzing)
+  * schematics.fzz                                         => Fritzing project
+  * DC_Motor_Generator_Efficiency_AVR_UNO_atmega328p.hex   => project Build
+  * ReadMe.adoc         									 => this file
 ....
 
 === License
-* This program is free software: you can redistribute it and/or modify
-* it under the terms of the GNU General Public License as published by
-* the Free Software Foundation, either version 3 of the License, or
-* (at your option) any later version (<https://www.gnu.org/licenses/>).
+* This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version (<https://www.gnu.org/licenses/>).
 
 === Contributing
 To contribute to this project please contact Giovanni_G https://id.arduino.cc/Giovanni_G
